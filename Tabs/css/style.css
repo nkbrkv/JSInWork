@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* TABS MENU */
+
+.tabs-menu {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+}
+
+.tabs-menu-item {
+    margin: 10px 30px 10px 0;
+}
+
+.tabs-menu-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+/* SPECIAL STYLE */
+
+.is-active {
+    color: rgb(204, 64, 30);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+
+/* TABS  */
+
+.tabs-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs-item {
+    /* display: flex; */
+    border: 3px solid #c9c9c9;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+    padding: 20px;
+}
